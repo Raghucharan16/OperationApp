@@ -1,3 +1,5 @@
 fastapi
 uvicorn
-redis
+psycopg2
+pydantic
+python-dotenv
