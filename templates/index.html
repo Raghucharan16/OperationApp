@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Update Timings</title>
+</head>
+<body>
+    <h1>Update Boarding and Dropping Points</h1>
+    <form method="post" action="/update/">
+        <label for="ServiceId">ServiceId:</label><br>
+        <input type="number" id="ServiceId" name="ServiceId" required><br>
+        <label for="DayofException">DayofException (comma-separated):</label><br>
+        <input type="text" id="DayofException" name="DayofException"><br>
+        <label for="JourneyDate">JourneyDate (YYYY-MM-DD):</label><br>
+        <input type="text" id="JourneyDate" name="JourneyDate"><br>
+        <label for="boardingIds">boardingIds (comma-separated):</label><br>
+        <input type="text" id="boardingIds" name="boardingIds"><br>
+        <label for="droppingIds">droppingIds (comma-separated):</label><br>
+        <input type="text" id="droppingIds" name="droppingIds"><br>
+        <label for="timeChange">timeChange:</label><br>
+        <input type="number" id="timeChange" name="timeChange" required><br><br>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
